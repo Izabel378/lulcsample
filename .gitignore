@@ -1,0 +1,26 @@
+# -------------------------------------------------------------------
+# LULCSAMPLE PROJECT IGNORE FILE
+# Prevents uploading large, private, or generated files to GitHub.
+# -------------------------------------------------------------------
+
+# 1. SECURITY & PRIVATE FILES (CRITICAL: Do not commit your API key)
+# This ignores the entire folder containing your shared kaggle.json file.
+.secrets/
+kaggle.json 
+# If you didn't use the .secrets/ folder, this ignores the file itself if it's in the root.
+
+# 2. GENERATED DATA AND BINARIES (Saves space, prevents push errors)
+/preprocessed_eurosat/  # The folder containing the large .npy files
+*.npy                   # All NumPy array files
+*.zip                   # Temporary download archives
+
+# 3. MODELS, CHECKPOINTS, AND LOGS
+/models/                # Saved Keras model files (.keras, .h5)
+*.keras                 # Keras model files
+/logs/                  # TensorBoard log files
+
+# 4. ENVIRONMENT & VS CODE FILES
+__pycache__/            # Python temporary files
+.ipynb_checkpoints/     # Temporary checkpoint files created by Jupyter/VS Code
+.venv/                  # Virtual environment folder (if you named it .venv)
+.vscode/                # VS Code settings folder (optional, but recommended)
