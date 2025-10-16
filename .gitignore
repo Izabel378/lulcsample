@@ -1,49 +1,4 @@
 # -------------------------------------------------------------------
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# LULCSAMPLE PROJECT IGNORE FILE - CONFIGURED FOR GIT LFS
-# (This single file is the authoritative ignore list for the project.)
-# -------------------------------------------------------------------
-
-# 1. CREDENTIALS AND CONFIGS
-.secrets/
-kaggle.json
-*.json
-
-# 2. GENERATED AND TEMPORARY FILES
-/logs/
-__pycache__/
-.ipynb_checkpoints/
-.venv/
-.vscode/
-
-# Python artifacts
-*.py[cod]
-build/
-dist/
-
-# 3. LARGE DATA FILES (MUST BE IGNORED BY STANDARD GIT)
-# These files will be tracked by Git LFS via the separate .gitattributes file.
-datasets/
-preprocessed_eurosat/ # Explicitly ignore the preprocessing directory
-*.tif
-*.npy
-*.npz
-
-# Keras/TensorFlow artifacts (Your models)
-*.h5
-*.keras
-*.hdf5
-checkpoints/
-
-# 4. OS Files
-.DS_Store
-=======
-=======
->>>>>>> 128870237502d44bab3160602490d8332db08d86
-=======
->>>>>>> 128870237502d44bab3160602490d8332db08d86
 # LULCSAMPLE PROJECT IGNORE FILE
 # Prevents uploading large, private, or generated files to GitHub.
 # -------------------------------------------------------------------
@@ -68,13 +23,4 @@ kaggle.json
 __pycache__/            # Python temporary files
 .ipynb_checkpoints/     # Temporary checkpoint files created by Jupyter/VS Code
 .venv/                  # Virtual environment folder (if you named it .venv)
-<<<<<<< HEAD
-<<<<<<< HEAD
 .vscode/                # VS Code settings folder (optional, but recommended)
->>>>>>> 128870237502d44bab3160602490d8332db08d86
-=======
-.vscode/                # VS Code settings folder (optional, but recommended)
->>>>>>> 128870237502d44bab3160602490d8332db08d86
-=======
-.vscode/                # VS Code settings folder (optional, but recommended)
->>>>>>> 128870237502d44bab3160602490d8332db08d86
